@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import axios from 'axios';
 
-const url = 'https://course-api.com/react-store-products';
+const url = 'https://course-api.com/react-store-productss';
 
 const fetchdata = async()=>{
   try{
