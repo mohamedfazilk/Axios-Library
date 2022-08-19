@@ -10,7 +10,7 @@ const [joke,setJoke] = useState('random')
     
 const fetchData = async()=>{
     try{
-        const {data} = await axios(url,{
+        const {data} = await axios.get(url,{
             headers:{
                 Accept:'application/json'
             }
