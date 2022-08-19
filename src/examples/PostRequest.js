@@ -16,6 +16,9 @@ const PostRequest = () => {
         catch(error){
             console.log(error.resp);
         }
+
+        setName('');
+        setEmail('')
     }
     return (
         <section>
